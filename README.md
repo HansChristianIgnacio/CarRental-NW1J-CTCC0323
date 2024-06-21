@@ -73,3 +73,5 @@ Search for the "Connection con" in each Java file and update the "root" to your 
 ### NOTE: All of the Java files contain "Connection con," while only PaymentMethod.java does not have it, some files have two
 ## Sign up an account first to be able to use the GUI
 Run either loginForm.java and click sign-up or signupForm.java
+
+https://drive.google.com/drive/folders/1PG_VekOj0y_x_25YlKFCczqV2GYNnUi5?usp=sharing
