@@ -509,9 +509,9 @@ public class TransacAddDetails extends javax.swing.JFrame {
         long daysBetween = ChronoUnit.DAYS.between(rentingDate, returningDate);
 
         totalDaysValueLbl.setText(String.valueOf(daysBetween));
-        if (daysBetween < 0) {
-            pickUpDateErrorLbl.setText("Return date cannot be before pick-up date");
-            returnDateErrorLbl.setText("Return date cannot be before pick-up date");
+        if (daysBetween <= 0) {
+            pickUpDateErrorLbl.setText("Return cant be before pickup date");
+            returnDateErrorLbl.setText("Return cant be before pickup date");
         } else {
             pickUpDateErrorLbl.setText("");
             returnDateErrorLbl.setText("");
